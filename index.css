@@ -1,0 +1,78 @@
+body {
+		
+}
+footer {
+		margin-bottom: 0px;
+		width: 100%;
+}
+footer.bottom {
+		position: absolute;
+		bottom: 0px; 
+		width: 100%; /* Wijdte in procenten */
+}
+a { /* Navigatie */
+		text-decoration: none; /* De lijn onder het woord weghalen */
+}
+img { /* Afbeelding */
+		float: left; /* Plek afbeelding */
+}
+h1 { /* Titel tekst */
+		font-size: 60px; /* Grootte */
+		font-family: "Arial"; /* Lettertype */
+		display: block;
+		padding-top: 20px; /* Afstand met wat erboven zit */
+		text-align: center; /* Plek van de tekst (midden) */
+}
+h2 {
+		font-family: "Arial"; 
+		display: block;
+}
+h2.paddingtitle {
+		font-family: "Arial";
+		padding-top: 100px;
+}
+p {
+		font-family: "Arial";
+}
+.paddingleft {
+		font-family: "Arial";
+		font-size: 40px;
+		text-align: center;
+}
+p.footer {
+		font-family: "Arial";
+		font-weight: normal; 
+		color:#FFFFFF; /* Kleur letters */
+		text-align: center;
+		background-color: #707070; /* Kleur achtergrond */
+		padding-top: 7.5px; /* Afstand van de bovenkant */
+		padding-bottom: 7.5px;
+		margin-bottom: 0; /* Afstand met de onderkant van de pagina */
+}
+.sidenav {
+		height: 100%;
+		width: 160px;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: #000000;
+		overflow-x: hidden;
+		padding-top: 20px;
+}
+.sidenav a {
+		font-family: "Arial";
+		padding: 6px 8px 6px 10px;
+		text-decoration: none;
+		font-size: 25px;
+		color: #707070;
+		display: block;
+}
+.sidenav a:hover {
+		color: #F5F5F5;
+}
+.main {
+		margin-left: 210px; 
+		font-size: 20px; 
+		padding: 0px 10px;
+}

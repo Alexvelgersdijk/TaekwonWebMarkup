@@ -1,0 +1,88 @@
+body {
+		
+}
+footer {
+		margin-bottom: 0px;
+		width: 100%;
+}
+a { 
+		text-decoration: none;
+}
+img {
+		float: left;
+}
+.right {
+		Float: right;
+		width: 35%;
+}
+h1 {
+		font-family: "Arial";
+		display: block;
+		padding-top: 20px;
+}
+h1.titleformaat {
+		font-size: 60px;
+		font-family: "Arial";
+		display: block;
+		padding-top: 20px;
+		text-align: center;
+}
+h2 {
+		font-family: "Arial";
+		font-size: 20px;
+		margin-bottom: 4px; 
+}
+h2.small {
+		font-family: "Arial";
+		line-height: 10%;
+}
+p {
+		font-family: "Arial";
+}
+p.footer {
+		font-family: "Arial";
+		font-weight: normal; 
+		color:#FFFFFF;
+		text-align: center;
+		background-color: #707070;
+		padding-top: 7.5px; 
+		padding-bottom: 7.5px;
+		margin-top: 0;
+		margin-bottom: 0;
+}
+.paddingleft {
+		font-family: "Arial";
+		font-size: 40px;
+		text-align: center;
+		
+}
+.paddingTitle {
+		padding-top: 100px;
+}
+.sidenav {
+		height: 100%;
+		width: 160px;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: #000000;
+		overflow-x: hidden;
+		padding-top: 20px;
+}
+.sidenav a {
+		font-family: "Arial";
+		padding: 6px 8px 6px 10px;
+		text-decoration: none;
+		font-size: 25px;
+		color: #707070;
+		display: block;
+}
+.sidenav a:hover {
+		color: #F5F5F5;
+}
+.main {
+		margin-left: 210px; 
+		font-size: 20px; 
+		padding: 0px 10px;
+}
